@@ -97,7 +97,7 @@ builder.Services.AddAuthorization();
 
 var app = builder.Build();
 
-await app.Services.DatabaseMigrate();
+app.Services.DatabaseMigrate();
 
 if (app.Environment.IsDevelopment())
 {

@@ -6,7 +6,7 @@ namespace TaskManagementSystem.Api
 {
     public static class DatabaseMigrationExtensions
     {
-        public static async Task DatabaseMigrate(this IServiceProvider serviceProvider)
+        public static void DatabaseMigrate(this IServiceProvider serviceProvider)
         {
             var scopeFactory = serviceProvider.GetRequiredService<IServiceScopeFactory>();
 
@@ -16,7 +16,7 @@ namespace TaskManagementSystem.Api
 
                 if (context.Database.GetPendingMigrations().Any())
                 {
-                    await context.Database.MigrateAsync();
+                    context.Database.Migrate();
                 }
 
                 var userInitializer = new UserInitializer(context);
@@ -26,7 +26,5 @@ namespace TaskManagementSystem.Api
                 userTaskInitializer.InitializeUserTasks();
             }
         }
-
-
     }
 }
