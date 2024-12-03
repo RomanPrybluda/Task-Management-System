@@ -4,20 +4,20 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
 using System.Text.Json.Serialization;
-using TMS.Api;
-using TMS.Api.Middleware;
-using TMS.Dal;
-using TMS.Dal.Repositories;
-using TMS.Domain.Abstractions;
-using TMS.Domain.Configurations;
-using TMS.Service;
+using TaskManagementSystem.Api;
+using TaskManagementSystem.Api.Middleware;
+using TaskManagementSystem.Dal;
+using TaskManagementSystem.Dal.Repositories;
+using TaskManagementSystem.Domain.Abstractions;
+using TaskManagementSystem.Domain.Configurations;
+using TaskManagementSystem.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<TaskManagmentSystemDbContext>(options =>
 {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("TMSDbConnectionString"),
-        b => b.MigrationsAssembly("TMS.Dal"));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("TaskManagementSystemDbConnectionString"),
+        b => b.MigrationsAssembly("TaskManagementSystem.Dal"));
 });
 
 builder.Services.AddEndpointsApiExplorer();

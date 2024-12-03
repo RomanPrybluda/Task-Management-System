@@ -1,7 +1,7 @@
-﻿using TMS.Domain.Enums;
-using TMS.Domain.Sorting;
+﻿using TaskManagementSystem.Domain.Enums;
+using TaskManagementSystem.Domain.Sorting;
 
-namespace TMS.Domain.DTO.Request
+namespace TaskManagementSystem.Domain.DTO.Request
 {
     public class GetUserTasksRequest
     {

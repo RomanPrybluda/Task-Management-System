@@ -1,7 +1,7 @@
-﻿using TMS.Domain.Entities;
-using TMS.Domain.Enums;
+﻿using TaskManagementSystem.Domain.Entities;
+using TaskManagementSystem.Domain.Enums;
 
-namespace TMS.Domain.DTO.Response
+namespace TaskManagementSystem.Domain.DTO.Response
 {
     public class GetUserTasksResponse
     {

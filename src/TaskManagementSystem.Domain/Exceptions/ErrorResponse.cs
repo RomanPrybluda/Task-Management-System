@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace TMS.Domain.Exceptions
+namespace TaskManagementSystem.Domain.Exceptions
 {
     public class ErrorResponse
     {

@@ -1,4 +1,4 @@
-﻿namespace TMS.Api.Properties
+﻿namespace TaskManagementSystem.Api.Properties
 {
     public class RequestLoggingSettings
     {

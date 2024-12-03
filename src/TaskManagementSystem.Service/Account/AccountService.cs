@@ -1,10 +1,10 @@
-﻿using TMS.Domain.Abstractions;
-using TMS.Domain.Auth.DTO;
-using TMS.Domain.DTO.Auth;
-using TMS.Domain.Entities;
-using TMS.Domain.Exceptions;
+﻿using TaskManagementSystem.Domain.Abstractions;
+using TaskManagementSystem.Domain.Auth.DTO;
+using TaskManagementSystem.Domain.DTO.Auth;
+using TaskManagementSystem.Domain.Entities;
+using TaskManagementSystem.Domain.Exceptions;
 
-namespace TMS.Service
+namespace TaskManagementSystem.Service
 {
     public class AccountService : IAccountService
     {

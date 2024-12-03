@@ -1,8 +1,8 @@
-﻿using TMS.Domain.DTO.Pagination;
-using TMS.Domain.DTO.Request;
-using TMS.Domain.DTO.Response;
+﻿using TaskManagementSystem.Domain.DTO.Pagination;
+using TaskManagementSystem.Domain.DTO.Request;
+using TaskManagementSystem.Domain.DTO.Response;
 
-namespace TMS.Domain.Abstractions
+namespace TaskManagementSystem.Domain.Abstractions
 {
     public interface IUserTaskService
     {

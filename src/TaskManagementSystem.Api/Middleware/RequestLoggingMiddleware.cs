@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Options;
-using TMS.Api.Properties;
+using TaskManagementSystem.Api.Properties;
 
-namespace TMS.Api.Middleware
+namespace TaskManagementSystem.Api.Middleware
 {
     public class RequestLoggingMiddleware
     {

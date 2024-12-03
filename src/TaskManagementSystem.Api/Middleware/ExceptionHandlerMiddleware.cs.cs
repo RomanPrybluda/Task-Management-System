@@ -1,7 +1,7 @@
-﻿using TMS.Api.Extentions;
-using TMS.Domain.Exceptions;
+﻿using TaskManagementSystem.Api.Extentions;
+using TaskManagementSystem.Domain.Exceptions;
 
-namespace TMS.Api.Middleware
+namespace TaskManagementSystem.Api.Middleware
 {
     public class ExceptionHandlerMiddleware
     {

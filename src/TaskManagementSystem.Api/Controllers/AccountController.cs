@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
 using System.ComponentModel.DataAnnotations;
-using TMS.Domain.Abstractions;
-using TMS.Domain.Auth.DTO;
-using TMS.Domain.Exceptions;
+using TaskManagementSystem.Domain.Abstractions;
+using TaskManagementSystem.Domain.Auth.DTO;
+using TaskManagementSystem.Domain.Exceptions;
 
-namespace TMS.Api.Controllers
+namespace TaskManagementSystem.Api.Controllers
 {
     [ApiController]
     [Route("users")]

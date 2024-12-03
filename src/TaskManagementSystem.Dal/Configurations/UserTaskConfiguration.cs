@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using TMS.Domain.Entities;
+using TaskManagementSystem.Domain.Entities;
 
-namespace TMS.Dal.Configurations
+namespace TaskManagementSystem.Dal.Configurations
 {
     public class UserTaskConfiguration : IEntityTypeConfiguration<UserTask>
     {

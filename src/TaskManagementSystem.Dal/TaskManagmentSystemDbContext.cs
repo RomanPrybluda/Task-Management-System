@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using TMS.Domain.Entities;
+using TaskManagementSystem.Domain.Entities;
 
-namespace TMS.Dal
+namespace TaskManagementSystem.Dal
 {
     public class TaskManagmentSystemDbContext : DbContext
     {

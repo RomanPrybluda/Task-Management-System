@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using TMS.Dal;
-using TMS.Dal.Seeds;
+using TaskManagementSystem.Dal;
+using TaskManagementSystem.Dal.Seeds;
 
-namespace TMS.Api
+namespace TaskManagementSystem.Api
 {
     public static class DatabaseMigrationExtensions
     {

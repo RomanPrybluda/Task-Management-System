@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using TMS.Domain.Enums;
+using TaskManagementSystem.Domain.Enums;
 
-namespace TMS.Domain.DTO.Request
+namespace TaskManagementSystem.Domain.DTO.Request
 {
     public class CreateUserTaskRequest
     {

@@ -1,8 +1,8 @@
 ﻿using Bogus;
-using TMS.Domain.Entities;
-using TMS.Domain.Enums;
+using TaskManagementSystem.Domain.Entities;
+using TaskManagementSystem.Domain.Enums;
 
-namespace TMS.Dal.Seeds
+namespace TaskManagementSystem.Dal.Seeds
 {
     public class UserTaskInitializer
     {

@@ -2,12 +2,12 @@
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
 using System.ComponentModel.DataAnnotations;
-using TMS.Domain.Abstractions;
-using TMS.Domain.DTO.Pagination;
-using TMS.Domain.DTO.Request;
-using TMS.Domain.Exceptions;
+using TaskManagementSystem.Domain.Abstractions;
+using TaskManagementSystem.Domain.DTO.Pagination;
+using TaskManagementSystem.Domain.DTO.Request;
+using TaskManagementSystem.Domain.Exceptions;
 
-namespace TMS.Api.Controllers
+namespace TaskManagementSystem.Api.Controllers
 {
     [Authorize]
     [ApiController]

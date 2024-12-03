@@ -1,12 +1,12 @@
-﻿using TMS.Domain.Abstractions;
-using TMS.Domain.DTO.Pagination;
-using TMS.Domain.DTO.Request;
-using TMS.Domain.DTO.Response;
-using TMS.Domain.Entities;
-using TMS.Domain.Exceptions;
-using TMS.Domain.Sorting;
+﻿using TaskManagementSystem.Domain.Abstractions;
+using TaskManagementSystem.Domain.DTO.Pagination;
+using TaskManagementSystem.Domain.DTO.Request;
+using TaskManagementSystem.Domain.DTO.Response;
+using TaskManagementSystem.Domain.Entities;
+using TaskManagementSystem.Domain.Exceptions;
+using TaskManagementSystem.Domain.Sorting;
 
-namespace TMS.Service
+namespace TaskManagementSystem.Service
 {
     public class UserTaskService : IUserTaskService
     {

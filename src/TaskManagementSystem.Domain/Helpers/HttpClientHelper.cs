@@ -1,7 +1,7 @@
 ﻿using System.Text.Json;
-using TMS.Domain.Exceptions;
+using TaskManagementSystem.Domain.Exceptions;
 
-namespace TMS.Domain.Helpers
+namespace TaskManagementSystem.Domain.Helpers
 {
     public static class HttpClientHelper
     {

@@ -1,4 +1,4 @@
-﻿namespace TMS.Domain.Enums
+﻿namespace TaskManagementSystem.Domain.Enums
 {
     public enum UserTaskPriority
     {

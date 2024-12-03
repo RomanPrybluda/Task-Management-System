@@ -3,12 +3,12 @@ using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using TMS.Domain.Abstractions;
-using TMS.Domain.Configurations;
-using TMS.Domain.Entities;
+using TaskManagementSystem.Domain.Abstractions;
+using TaskManagementSystem.Domain.Configurations;
+using TaskManagementSystem.Domain.Entities;
 using JwtRegisteredClaimNames = System.IdentityModel.Tokens.Jwt.JwtRegisteredClaimNames;
 
-namespace TMS.Service
+namespace TaskManagementSystem.Service
 {
     public class JwtService : IJwtService
     {

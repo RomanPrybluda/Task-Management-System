@@ -1,7 +1,7 @@
-﻿using TMS.Domain.Auth.DTO;
-using TMS.Domain.Entities;
+﻿using TaskManagementSystem.Domain.Auth.DTO;
+using TaskManagementSystem.Domain.Entities;
 
-namespace TMS.Domain.Abstractions
+namespace TaskManagementSystem.Domain.Abstractions
 {
     public interface IUserRepository
     {

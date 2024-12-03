@@ -1,7 +1,7 @@
-﻿using TMS.Domain.Auth.DTO;
-using TMS.Domain.DTO.Auth;
+﻿using TaskManagementSystem.Domain.Auth.DTO;
+using TaskManagementSystem.Domain.DTO.Auth;
 
-namespace TMS.Domain.Abstractions
+namespace TaskManagementSystem.Domain.Abstractions
 {
     public interface IAccountService
     {

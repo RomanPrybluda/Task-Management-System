@@ -1,4 +1,4 @@
-﻿namespace TMS.Domain.Exceptions
+﻿namespace TaskManagementSystem.Domain.Exceptions
 {
     public enum CustomExceptionType
     {

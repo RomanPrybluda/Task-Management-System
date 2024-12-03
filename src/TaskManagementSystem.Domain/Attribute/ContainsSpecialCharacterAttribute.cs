@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace TMS.Domain.Attribute
+namespace TaskManagementSystem.Domain.Attribute
 {
     public class ContainsSpecialCharacterAttribute : ValidationAttribute
     {

@@ -1,4 +1,4 @@
-﻿namespace TMS.Domain.DTO.Auth
+﻿namespace TaskManagementSystem.Domain.DTO.Auth
 {
     public class ReqisterResponse
     {

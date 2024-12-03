@@ -1,4 +1,4 @@
-﻿namespace TMS.Domain.Sorting
+﻿namespace TaskManagementSystem.Domain.Sorting
 {
     public enum SortOrder
     {

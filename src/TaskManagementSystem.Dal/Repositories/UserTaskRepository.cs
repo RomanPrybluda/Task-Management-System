@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using TMS.Domain.Abstractions;
-using TMS.Domain.Entities;
+using TaskManagementSystem.Domain.Abstractions;
+using TaskManagementSystem.Domain.Entities;
 
-namespace TMS.Dal.Repositories
+namespace TaskManagementSystem.Dal.Repositories
 {
     public class UserTaskRepository : IUserTaskRepository
     {

@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using TMS.Domain.Abstractions;
-using TMS.Domain.Auth.DTO;
-using TMS.Domain.Entities;
+using TaskManagementSystem.Domain.Abstractions;
+using TaskManagementSystem.Domain.Auth.DTO;
+using TaskManagementSystem.Domain.Entities;
 
-namespace TMS.Dal.Repositories
+namespace TaskManagementSystem.Dal.Repositories
 {
     public class UserRepository : IUserRepository
     {

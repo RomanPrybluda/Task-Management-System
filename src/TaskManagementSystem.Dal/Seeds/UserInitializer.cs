@@ -1,7 +1,7 @@
 ﻿using Bogus;
-using TMS.Domain.Entities;
+using TaskManagementSystem.Domain.Entities;
 
-namespace TMS.Dal.Seeds
+namespace TaskManagementSystem.Dal.Seeds
 {
     public class UserInitializer
     {

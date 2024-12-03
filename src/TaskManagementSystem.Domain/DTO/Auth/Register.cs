@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using TMS.Domain.Attribute;
+using TaskManagementSystem.Domain.Attribute;
 
-namespace TMS.Domain.Auth.DTO
+namespace TaskManagementSystem.Domain.Auth.DTO
 {
     public class Register
     {

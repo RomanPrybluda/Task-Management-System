@@ -1,6 +1,6 @@
-﻿using TMS.Domain.Enums;
+﻿using TaskManagementSystem.Domain.Enums;
 
-namespace TMS.Domain.Entities
+namespace TaskManagementSystem.Domain.Entities
 {
     public class UserTask
     {

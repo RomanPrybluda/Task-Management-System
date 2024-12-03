@@ -1,4 +1,4 @@
-﻿namespace TMS.Domain.Entities
+﻿namespace TaskManagementSystem.Domain.Entities
 {
     public class User
     {

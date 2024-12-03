@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace TMS.Domain.Auth.DTO
+namespace TaskManagementSystem.Domain.Auth.DTO
 {
     public class LoginRequest
     {

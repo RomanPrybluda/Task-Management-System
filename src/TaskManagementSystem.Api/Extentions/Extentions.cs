@@ -1,6 +1,6 @@
-﻿using TMS.Domain.Exceptions;
+﻿using TaskManagementSystem.Domain.Exceptions;
 
-namespace TMS.Api.Extentions
+namespace TaskManagementSystem.Api.Extentions
 {
     public static class Extensions
     {

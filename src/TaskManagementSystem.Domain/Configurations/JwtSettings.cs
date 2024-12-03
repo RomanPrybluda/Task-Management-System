@@ -1,4 +1,4 @@
-﻿namespace TMS.Domain.Configurations
+﻿namespace TaskManagementSystem.Domain.Configurations
 {
     public class JwtSettings
     {

@@ -1,4 +1,4 @@
-﻿namespace TMS.Domain.DTO.Pagination
+﻿namespace TaskManagementSystem.Domain.DTO.Pagination
 {
     public class PaginationRequest
     {
