@@ -6,6 +6,7 @@ using System.Text;
 using System.Text.Json.Serialization;
 using TaskManagementSystem.Api;
 using TaskManagementSystem.Api.Middleware;
+using TaskManagementSystem.Api.Properties;
 using TaskManagementSystem.Dal;
 using TaskManagementSystem.Dal.Repositories;
 using TaskManagementSystem.Domain.Abstractions;
@@ -26,8 +27,11 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddScoped<HttpClient>();
 
 builder.Services.AddScoped<IJwtService, JwtService>();
+
 builder.Services.Configure<JwtSettings>(
     builder.Configuration.GetSection(nameof(JwtSettings)));
+builder.Services.Configure<RequestLoggingSettings>(
+    builder.Configuration.GetSection(nameof(RequestLoggingSettings)));
 
 builder.Services.AddScoped<IAccountService, AccountService>();
 builder.Services.AddScoped<IUserTaskService, UserTaskService>();
