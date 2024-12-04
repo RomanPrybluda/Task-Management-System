@@ -4,7 +4,7 @@ using TaskManagementSystem.Domain.DTO.Auth;
 using TaskManagementSystem.Domain.Entities;
 using TaskManagementSystem.Domain.Exceptions;
 
-namespace TaskManagementSystem.Service
+namespace TaskManagementSystem.Service.Account
 {
     public class AccountService : IAccountService
     {

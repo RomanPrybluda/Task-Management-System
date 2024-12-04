@@ -11,6 +11,7 @@ using TaskManagementSystem.Dal.Repositories;
 using TaskManagementSystem.Domain.Abstractions;
 using TaskManagementSystem.Domain.Configurations;
 using TaskManagementSystem.Service;
+using TaskManagementSystem.Service.Account;
 
 var builder = WebApplication.CreateBuilder(args);
 
